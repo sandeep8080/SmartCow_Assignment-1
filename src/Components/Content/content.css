@@ -1,0 +1,16 @@
+.content-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 60px;
+  padding: 10px;
+  /*
+  margin-left: 250px;
+  */
+  transform: translateX(230px);
+  transition: transform 0.4s ease-out;
+}
+
+.content-container-expand {
+  margin-left: 0;
+  transform: translateX(0);
+}

@@ -1,0 +1,46 @@
+.navBar {
+  position: sticky;
+  width: 100%;
+  background-color: var(--white);
+  height: 60px;
+  top: 0;
+  left: 0;
+}
+
+.toolbar-nav {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.toolBar-logo a {
+  color: var(--textColor);
+  text-decoration: none;
+}
+.toolBar-nav-items a {
+  color: var(--textColor);
+  font-size: var(--fontSize);
+  text-decoration: none;
+}
+
+.toolBar-nav-items a:hover,
+.toolBar-nav-items a:active {
+  color: #dcc032;
+}
+
+.toolBar-nav-items ul {
+  display: flex;
+  list-style: none;
+}
+.toolBar-nav-items li {
+  padding: 0 10px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.toggleButton {
+  padding: 0px 10px;
+  color: white;
+}
